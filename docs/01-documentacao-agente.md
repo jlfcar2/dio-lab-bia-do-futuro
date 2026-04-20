@@ -101,7 +101,9 @@ flowchart TD
 ### Estratégias Adotadas
 
 - [ ] [Agente só responde com base em dados fornecidos, encontrados na web ou com os quais foi treinado]
-- [ ] [Respostas incluem fonte da informação, e se a fonte for de seus dados de treinamento, diz frases como "até onde eu estudei..."]
+- [ ] [Agente prioriza responder na seguinte ordem: dados fornecidos > encontrados na web > dados de treinamento]
+- [ ] [Respostas incluem fonte da informação]
+- [ ] [Se a fonte for de seus dados de treinamento, diz frases como "até onde eu estudei..."]
 - [ ] [Quando não sabe, admite e redireciona]
 - [ ] [Não faz recomendações de investimento sem perfil do usuário]
 - [ ] [Faz perguntas para definir perfil do usuário]
