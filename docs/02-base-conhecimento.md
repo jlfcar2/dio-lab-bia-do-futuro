@@ -11,7 +11,7 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 | `transacoes.csv` | CSV | Analisar padrão de gastos do amigo |
 
 > [!TIP]
-> **Quer um dataset mais robusto?** Você pode utilizar datasets públicos do [Hugging Face](https://huggingface.co/datasets) relacionados a finanças, desde que sejam adequados ao contexto do desafio.
+> **Para um dataset mais robusto:** Pode-se utilizar datasets públicos do [Hugging Face](https://huggingface.co/datasets) relacionados a finanças, desde que sejam adequados ao contexto do desafio.
 
 ---
 
