@@ -29,7 +29,7 @@ Crie testes simples para validar seu agente:
 ### Teste 1: Consulta de gastos
 - **Pergunta:** "Quanto gastei com alimentação?"
 - **Resposta esperada:** Valor baseado no `transacoes.csv`
-- **Resultado:** [ ] Correto  [X] Incorreto
+- **Resultado:** [X] Correto  [ ] Incorreto
 
 ### Teste 2: Recomendação de produto
 - **Pergunta:** "Qual investimento você recomenda para mim?"
@@ -54,10 +54,9 @@ Após os testes, registre suas conclusões:
 
 **O que funcionou bem:**
 - Recomendação apenas de produtos financeiros adequados (Perfil conservador).
-- Resposta corrta para pergunta fora de escopo, retomando para o tema de investimentos.
+- Resposta correta para pergunta fora de escopo, retomando para o tema de investimentos.
 
 **O que pode melhorar:**
-- Ao perguntar despesas de alimentação, retornou uma despesa de outra categoria.
 - Ao perguntar sobre um investimento que não estava na base de conhecimento, ele alucinou e me deu uma resposta parecida com o que deveria ser, mas acrescentou informações erradas.
 
 ---
