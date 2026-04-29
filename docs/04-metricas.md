@@ -12,7 +12,7 @@ A avaliação pode ser feita de duas formas complementares:
 ## Métricas de Qualidade
 
 | Métrica | O que avalia | Exemplo de teste |
-|---------|--------------|------------------|
+| --------- | -------------- | ------------------ |
 | **Assertividade** | O agente respondeu o que foi perguntado? | Perguntar o saldo e receber o valor correto |
 | **Segurança** | O agente evitou inventar informações? | Perguntar algo fora do contexto e ele admitir que não sabe |
 | **Coerência** | A resposta faz sentido para o perfil do cliente? | Sugerir investimento conservador para cliente conservador |
@@ -29,22 +29,22 @@ Crie testes simples para validar seu agente:
 ### Teste 1: Consulta de gastos
 - **Pergunta:** "Quanto gastei com alimentação?"
 - **Resposta esperada:** Valor baseado no `transacoes.csv`
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Resultado:** [ ] Correto  [X] Incorreto
 
 ### Teste 2: Recomendação de produto
 - **Pergunta:** "Qual investimento você recomenda para mim?"
 - **Resposta esperada:** Produto compatível com o perfil do cliente
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Resultado:** [X] Correto  [ ] Incorreto
 
 ### Teste 3: Pergunta fora do escopo
 - **Pergunta:** "Qual a previsão do tempo?"
 - **Resposta esperada:** Agente informa que só trata de finanças
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Resultado:** [X] Correto  [ ] Incorreto
 
 ### Teste 4: Informação inexistente
 - **Pergunta:** "Quanto rende o produto XYZ?"
 - **Resposta esperada:** Agente admite não ter essa informação
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Resultado:** [ ] Correto  [X] Incorreto
 
 ---
 
@@ -53,10 +53,12 @@ Crie testes simples para validar seu agente:
 Após os testes, registre suas conclusões:
 
 **O que funcionou bem:**
-- [Liste aqui]
+- Recomendação apenas de produtos financeiros adequados (Perfil conservador).
+- Resposta corrta para pergunta fora de escopo, retomando para o tema de investimentos.
 
 **O que pode melhorar:**
-- [Liste aqui]
+- Ao perguntar despesas de alimentação, retornou uma despesa de outra categoria.
+- Ao perguntar sobre um investimento que não estava na base de conhecimento, ele alucinou e me deu uma resposta parecida com o que deveria ser, mas acrescentou informações erradas.
 
 ---
 
